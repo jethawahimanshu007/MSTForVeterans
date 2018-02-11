@@ -1,0 +1,13 @@
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<body ng-app="myApp" ng-controller="myCtrl">
+<select ng-model="selectedName" ng-options="x for x in names|orderBy"></select>
+
+<script>
+var myApp=angular.module('myApp',[]);
+myApp.controller("myCtrl",function($scope){
+  $scope.names=['himanshu','pravin','jai'];
+});
+</script>
+</body>
+</html>
