@@ -1,5 +1,5 @@
 # MSTForVeterans
-A B2C E commerce Platform for Veterans
+A B2C E-commerce Platform for Veterans(Developed in PHP and MySQL)
 <br>
 Home Page:
 <br>
